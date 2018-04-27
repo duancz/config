@@ -1,2 +1,10 @@
 ip: 127.0.0.1
 port: 7788
+
+server:
+  port: 8031
+
+eureka:
+  client:
+    serviceUrl:
+          defaultZone: http://localhost:8761/eureka/ #eureka服务注册地址
